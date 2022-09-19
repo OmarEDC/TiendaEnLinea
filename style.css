@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+#login{
+    /*text-align: right;
+    position:absolute;*/
+    margin-right: 50px;
+    margin-left: auto;
+    /*background-color: aqua;*/
+}
+#logo{
+    /*background-color: blueviolet;*/
+    max-width: 100px; /*el logo siempre será del mismo tamaño, evita desbordamientos*/
+    /*float: left;*/
+    
+}
+#logoImg{
+    width: 100%;
+}
+/*div.barraNav{
+    background-color: yellowgreen;
+    float: right;
+}*/
+nav{
+    /*
+    background-color: bisque;
+    text-align: left;
+    
+    float: left;
+    
+    /*margin: 20px 0 0 20px;*/
+  
+}
+
+header{
+    display: flex;
+    align-items: center; 
+    /*alinear items
+    height: auto;    
+    /*width: 100%;  
+    background-color: aqua;*/
+    
+}
+img{
+    /*width: 100%;*/
+    }
+ol li{
+    display: inline;
+    margin-left: 20px;
+}
+section{
+    background-color: #006241;
+    padding: 25px 25px 50px 25px;
+}
+
+
+ol li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+button{
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+button a{
+    text-decoration: none;
+}
+
+#botonB{
+    background-color: #fff;
+    border-color: #000;
+    margin-right: 25px;
+}
+
+#botonB a{
+    color:#000
+}
+
+#botonN{
+    background-color: #000;
+    border-color: #000;
+}
+
+#botonN a{
+    color: #fff;
+}
+
+main{
+    text-align: center;
+    color: #fff;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    /*letter-spacing: 6px;*/
+}
+
+a{
+    color: #fff;
+}
+
+article{
+    background-color: #d50032;
+    height: auto;
+    min-height: 450px;
+    padding: 25px 25px 25px 50px;
+    
+}
+
+.uno img{
+    float: left;
+    display: grid;
+    width: 50%;
+    /*object-fit: cover;*/
+    max-width: 600px;
+    padding: 30px;
+}
+
+.contenido{
+   margin-top: 100px;
+}
+
+.dos img{
+    float: right;
+    width: 50%;
+    max-width: 550px;
+    padding: auto;
+}
+
+footer div{
+    color: #000;
+}
